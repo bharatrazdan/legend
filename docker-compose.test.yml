@@ -21,3 +21,4 @@ services:
       - type: bind
         source: ./tests_config
         target: /etc/grafana/provisioning/
+....
