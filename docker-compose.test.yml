@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.9"
 services:
   sut:
     build: .
@@ -21,4 +21,3 @@ services:
       - type: bind
         source: ./tests_config
         target: /etc/grafana/provisioning/
-....
